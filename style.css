@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(240, 248, 255); ;
+}
+.modal{
+    display: none;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgb(240, 248, 255); 
+position: relative;
+}
+.modal>button{
+    display: block;
+    margin: 10px 0;
+position: absolute;
+right: 10px;
+top: 0;
+}
+.modal>p{
+    width: 70%;
+    margin: 10px 10px;
+}
+.body{
+    background-color: rgba(240, 248, 255, 0);
+}
+.display{
+    display: inline-block;
+}
